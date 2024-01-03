@@ -18,8 +18,7 @@ router.push("/dashboard")
   <form className="grid  gap-6" onSubmit={()=>{handleSubmit(event)}}>
 <label htmlFor="name" className="flex flex-col">
  <span className="text-slate-700">Name</span>
-  <input type="text" id="name" className="border border-slate-500 focus:outline-none  focus:border-sky-500 px-3 py-1 rounded placeholder:text-slate-400 "  placeholder="Enter your Name" required/>
-
+  <input type="text" id="name" className=" border border-slate-500 focus:outline-none  focus:border-sky-500 px-3 py-1 rounded placeholder:text-slate-400 "  placeholder="Enter your Name" required/>
 </label>
 <label htmlFor="password" className="flex flex-col">
  <span className="text-slate-700"> Password</span>
