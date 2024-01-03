@@ -13,7 +13,7 @@ const ProductList = ({params}) => {
     <div>Product{params.id}
     
     </div>
-    <p className= "text-slate-600 hover:text-sky-500">{productList[params.id -1].product}</p>
+    <p >{productList[params.id -1].product}</p>
 <button className="border px-3 py-2 m-2 bg-sky-500 text-white rounded hover:bg-sky-400 transition duration-300 " onClick={()=>router.back()}>Back</button>
     </>
   )
